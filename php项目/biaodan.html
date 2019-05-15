@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>表单</title>
+	</head>
+	<body>
+	<form action="cgi-bin/post-query" method=POST>  <!--文本框-->
+	您的名字：
+	<input type=text name=姓名><br>
+	您的主页：
+	<input type=text name=网址 value=http://><br>
+	您的密码：
+	<input type=password name=密码><br>
+	<input type=submit value="发送"><input type=reset value="重设">
+	</form>
+	<p>
+	<form action="cgi-bin/post-query" method=POST>  <!--复选框-->
+	<input type=checkbox name=商品1>
+	罐头<p>
+	<input type=checkbox name=商品2 checked>
+	香蕉<p>
+	<input type=checkbox name=商品3 value=book>
+	书籍<p>
+	<input type=submit><input type=reset>
+	</form>
+	<p>
+	<form action="cgi-bin/post-query" method=POST>  <!--单选按钮-->
+	<input type=radio name=水果>
+	香蕉<p>
+	<input type=radio name=水果 checked>
+	苹果<p>
+	<input type=radio name=水果 value=橙子>
+	橙子<p>
+	<input type=submit><input type=reset>
+	</form>
+	<p>
+	<form action="bin/post-query" method=POST>  <!--单选下拉列表-->
+	您所到过的国家：<p>
+	<select name=nation>
+	<option>美国
+	<option selected>英国
+	<option value=My_Favorite>日本
+	<option>加拿大
+	</select>
+	<input type=submit><input type=reset>
+	</form>
+	<p>
+	<form action="bin/post-query" method=POST>  <!--复选下拉列表？--->
+	您所到过的国家：<p>
+	<select name=nation size=3 multiple>
+	<option>美国
+	<option selected>英国
+	<option value=My_pscontry>日本
+	<option>加拿大
+	</select>
+	<input type=submit><input type=reset>
+	</form>
+	<p>
+	<form action="cgi-bin/post-query" method=POST>  <!--文本区域-->
+	<textarea name=comment rows=5 cols=60>
+	</textarea>
+	<p>
+	<input type=submit><input type=reset>
+	</form>
+	<p>
+	<form action="/cgi-bin/post-query" method=POST>  <!--隐藏表单的元素-->
+	<input type=hidden name=add value=hoge@hoge.jpg>
+	这里是一个隐藏表单元素<p>
+	<input type=submit><input type=reset>
+	</form>
+	</body>
+</html>

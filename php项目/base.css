@@ -1,0 +1,9 @@
+*{margin:0;padding:0;}
+body,h1,h2,h3,h4,h5,h6,p,div,ul,dl,ol,i,em,strong,b,form{font-size:12px;font-family:'Microsoft-yahei';}
+ul,ol,dl{list-style:none;}
+	a{text-decrocation:none;color:#000;}
+	i,em{font-style:normal;}
+	input,textarea{outline:none;resize:none;}
+	.fl{float:left;}
+	.fr{float:right;}
+	.clearFix:after{display:block;content:'',clear:both;zoom:1;}

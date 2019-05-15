@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<title>网上问卷调查</title>
+	</head>
+	<body>
+	<form action="cgi-bin/post-query" method="post">
+		<table width="961" height="403" border="0" cellspacing="0" cellpadding="0">
+		<tr align="center">
+		<td width="221" height="34"><span class="STYLE1">教材名称：PHP开发教程</span></td>
+		<td width="203"><span class="STYLE1">ISBN:XXXXXXXX112</span></td>
+		<td width="71">&nbsp;</td>
+		<td width="466">&nbsp;</td>
+		</tr>
+		<tr>
+			<td height="34" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;读者个人资料：</td>
+		</tr>
+		<tr align="center">
+			<td height="31">姓名</td>
+			<td align="left"><label><input type="text" name="textfield" id="textfield"/></label></td>
+			<td>年龄</td>
+			<td align="left"><input type="text" name="textfield2" id="textfield2"/>
+			性别<label><select name="select" id="select"/><option value="男">男</option><option value="女">女</option></select></label></td>
+		</tr>
+		<tr align="center">
+			<td height="34">文化程度</td>
+			<td align="left"><input type="text" name="textfield3" id="textfiled3"/></td>
+			<td>电子邮箱</td>
+			<td align="left"><input type="text" name="textfiled4" id="textfiled4"/></td>
+		</tr>
+		<tr>
+		<td height="34" colspan="4"><hr width="85%"/><td>
+		</tr>
+		<tr>
+		<td height="42" colspan="4" align="center">您使用本书是作为：
+		<input name="checkbox" type="checkbox" id="checkbox" value="selejc"/>指定教材
+		<input type="checkbox" name="checkbox2" id="checkbox2" value="selesyjc"/>选用教材
+		<input name="checkbox3" type="checkbox" id="checkbox3" value="selefdjc"/>辅导教材
+		<input type="checkbox" name="checkbox4" id="checkbox4" value="selezxjc"/>自学教材
+		</td>
+		</tr>
+		<tr>
+		<td height="42" colspan="4" align="center">您对本书封面设计的满意度：
+		<input name="checkbox5" type="checkbox" id="checkbox5" value="selejc"/>很满意
+		<input type="checkbox" name="checkbox5" id="checkbox6" value="selesyjc"/>满意
+		<input name="checkbox5" type="checkbox" id="checkbox7" value="selefdjc"/>一般
+		<input type="checkbox" name="checkbox5" id="checkbox8" value="selezxjc"/>不满意
+		</td>
+		</tr>
+		<tr>
+		<td height="42" colspan="4" align="center">您对本书印刷质量的满意度：
+		<input name="checkbox6" type="checkbox" id="checkbox9" value="selejc"/>很满意
+		<input type="checkbox" name="checkbox6" id="checkbox10" value="selesyjc"/>满意
+		<input name="checkbox6" type="checkbox" id="checkbox11" value="selefdjc"/>一般
+		<input type="checkbox" name="checkbox6" id="checkbox12" value="selezxjc"/>不满意
+		</td>
+		</tr>
+		<tr>
+		<td height="42" colspan="4" align="center">您对本书总体的满意度：
+		<input name="checkbox7" type="checkbox" id="checkbox13" value="selejc"/>很满意
+		<input type="checkbox" name="checkbox7" id="checkbox14" value="selexyjc"/>满意
+		<input name="checkbox7" type="checkbox" id="checkbox15" value="selefdjc"/>一般
+		<input type="checkbox" name="checkbox7" id="checkbox16" value="selezxjc"/>不满意
+		</td>
+		</tr>
+		<tr>
+		<td colspan="4" align="center">
+		<input type="submit" name="button" id="button" value="提交"/>
+		<input type="reset" name="button2" id="button2" value="重置"/>
+		</td>
+		</tr>
+		</table>
+	</form>
+	</body>
+</html>
